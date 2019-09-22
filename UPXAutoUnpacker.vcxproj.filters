@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="xed">
+      <UniqueIdentifier>{e618046b-2b57-484a-b8f1-e7ec7dd0d3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xed\utils">
+      <UniqueIdentifier>{df9ea6fa-7fb9-4257-9683-18e011031687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xed\utils\header files">
+      <UniqueIdentifier>{248c75ea-f53f-497c-be9f-6cb25b333168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xed\utils\source files">
+      <UniqueIdentifier>{06aff0fb-91cc-4b2e-b297-40c86db41262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xed\lib">
+      <UniqueIdentifier>{a6f96a08-4d91-4949-90b4-9d28c33a3903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xed\lib\header files">
+      <UniqueIdentifier>{9f07d386-c4c1-4022-904a-d96da89af3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xed\lib\source files">
+      <UniqueIdentifier>{6fe3d728-9c0e-4f9f-83b1-188b5f5b72e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_decoder.hpp">
+      <Filter>xed\lib\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_encoder.hpp">
+      <Filter>xed\lib\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_instruction.hpp">
+      <Filter>xed\lib\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_operand.hpp">
+      <Filter>xed\lib\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_instruction_utils.hpp">
+      <Filter>xed\utils\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_lib.hpp">
+      <Filter>xed\lib\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_interface_c.hpp">
+      <Filter>xed\lib\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="xed_memory_utils.hpp">
+      <Filter>xed\utils\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="debugger.hpp">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xed_decoder.cpp">
+      <Filter>xed\lib\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xed_operand.cpp">
+      <Filter>xed\lib\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xed_instruction.cpp">
+      <Filter>xed\lib\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xed_encoder.cpp">
+      <Filter>xed\lib\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xed_instruction_utils.cpp">
+      <Filter>xed\utils\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xed_memory_utils.cpp">
+      <Filter>xed\utils\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="debugger.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

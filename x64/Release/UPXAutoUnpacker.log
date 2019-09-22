@@ -1,0 +1,17 @@
+﻿  pch.cpp
+  debugger.cpp
+c:\users\reality\documents\visual studio 2017\projects\upxautounpacker\upxautounpacker\debugger.cpp(162): warning C4477: 'printf' : 書式文字列 '%llX' には、型 'unsigned __int64' の引数が必要ですが、可変個引数 1 は型 'LPVOID' です
+c:\users\reality\documents\visual studio 2017\projects\upxautounpacker\upxautounpacker\debugger.cpp(640): warning C4477: 'printf' : 書式文字列 '%llX' には、型 'unsigned __int64' の引数が必要ですが、可変個引数 1 は型 'PVOID' です
+c:\users\reality\documents\visual studio 2017\projects\upxautounpacker\upxautounpacker\debugger.cpp(646): warning C4477: 'printf' : 書式文字列 '%llX' には、型 'unsigned __int64' の引数が必要ですが、可変個引数 1 は型 'PVOID' です
+  main.cpp
+  xed_decoder.cpp
+  xed_encoder.cpp
+  xed_instruction.cpp
+  xed_instruction_utils.cpp
+  xed_memory_utils.cpp
+  xed_operand.cpp
+LINK : warning LNK4098: defaultlib 'LIBCMT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+  コード生成しています。
+  All 483 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  UPXAutoUnpacker.vcxproj -> C:\Users\Reality\Documents\Visual Studio 2017\Projects\UPXAutoUnpacker\x64\Release\UPXAutoUnpacker.exe
