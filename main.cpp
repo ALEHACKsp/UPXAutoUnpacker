@@ -13,7 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	CDebugger *debugProcess;
 	if (argc < 2)
 	{
-		debugProcess = new CDebugger(L"C:\\Nexon\\JMS\\MapleStory\\MapleStory.exe");
+		debugProcess = new CDebugger(L"C:\\Test\\CodeVirtualizedTest.exe");
 	}
 	else
 	{
